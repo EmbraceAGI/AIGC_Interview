@@ -1,6 +1,7 @@
 # AIGC 面试指南
 
-📚 AIGC 求职面经、必备基础知识、提示词工程、ChatGPT、Stable Diffusion、Prompt、Embedding、Fintune 等 AIGC 求职你所需要知道的一切~
+📚 AIGC 求职面经、必备基础知识、提示词工程、大模型、提示词工程师、ChatGPT、Stable Diffusion、Prompt、Embedding、Fintune 等 AIGC 求职你所需要知道的一切~
+
 
 **持续更新中，欢迎分享求职经历、内推、工作机会等信息，欢迎共同编辑完善本项目，祝大家求职顺利~**
 
