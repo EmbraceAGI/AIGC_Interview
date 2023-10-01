@@ -10,16 +10,19 @@
   - [前言](#前言)
   - [面经](#面经)
     - [算法方向](#算法方向)
+      - [观点](#观点)
     - [提示词方向](#提示词方向)
-  - [文章](#文章)
+      - [观点](#观点-1)
   - [学习资源](#学习资源)
     - [学习路径](#学习路径)
     - [AIGC 知识库](#aigc-知识库)
+    - [文章](#文章)
     - [提示词学习](#提示词学习)
     - [OpenAI 官方教程](#openai-官方教程)
     - [GPT 应用开发—— LangChain 相关资源](#gpt-应用开发-langchain-相关资源)
-    - [AI 基础(算法方向)](#ai-基础算法方向)
-      - [深度学习入门「口袋书」](#深度学习入门口袋书)
+  - [AI 基础(算法方向)](#ai-基础算法方向)
+    - [GPT 论文](#gpt-论文)
+    - [深度学习入门「口袋书」](#深度学习入门口袋书)
     - [AI 基础(其他方向)](#ai-基础其他方向)
   - [开源与合作](#开源与合作)
     - [📜 协议](#-协议)
@@ -52,7 +55,7 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 * [AIGC算法工程师](https://www.nowcoder.com/feed/main/detail/41dfecd495324a1d8d51bdddd3ddb4bc)
 * [手把手教你如何成为AIGC算法工程师（持续更新）](https://zhuanlan.zhihu.com/p/651076114)
 
-观点
+#### 观点
 
 * [ChatGPT这么强，会影响NLPer的就业环境吗](https://zhuanlan.zhihu.com/p/605673596)
 
@@ -65,7 +68,7 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 * [6个常见的 AIGC 相关面试问题，范例答案来了！](https://www.uisdc.com/aigc-3)
 * [字节AIGC产品经理真题面试｜全程高能](https://zhuanlan.zhihu.com/p/658602974)
 
-## 文章
+#### 观点
 
 关于提示词工程师职业，有许多不同的声音，收集各方文章供君参考
 
@@ -93,6 +96,14 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 * [LangGPT 结构化提示词](https://aq92z6vors3.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)
 * [💡Learn Prompting](https://learnprompting.org/zh-Hans/)
 * [ChatGPT 中文指南](https://github.com/yzfly/awesome-chatgpt-zh)
+
+### 文章
+
+|名称|简介|备注|
+|---|---|---|
+|[AI Agents大爆发：软件2.0雏形初现，OpenAI的下一步](https://mp.weixin.qq.com/s/Jb8HBbaKYXXxTSQOBsP5Wg)|Lilian Weng 的个人博客文章，Lilian 现在是 OpenAI 的 Head of Safety Systems，之前还领导过 OpenAI 的 Applied AI 团队。AI Agent 被认为是 OpenAI 发力的下一个方向。OpenAI 的联合创始人 Andrej Karpathy 在近期的一次公开活动上提到“相比模型训练方法，OpenAI 内部目前更关注 Agent 领域的变化，每当有新的 AI Agents 论文出来的时候，内部都会很兴奋并且认真地讨论”，而在更早之前，Andrej  还评价 AutoGPT 是 Prompt Engineering 下一阶段的探索方向。|[英文原文](https://lilianweng.github.io/posts/2023-06-23-agent/)|
+|[《综述：全新大语言模型驱动的Agent》——4.5万字详细解读复旦NLP和米哈游最新Agent Survey](https://zhuanlan.zhihu.com/p/656676717)|复旦NLP团队和米哈游一起出的《TITLE：The Rise and Potential of Large Language Model Based Agents: A Survey》论文一个翻译版本，作者同时对部分内容进行了删繁就简，总结概括。|[论文原文](https://arxiv.org/pdf/2309.07864v1.pdf)|
+|[LangChain Agents - Joining Tools and Chains with Decisions](https://www.youtube.com/watch?v=ziu87EXZVUE&ab_channel=SamWitteveen)|LangChain Agents--将工具和任务链与决策结合起来|英文 Youtube 视频，LangChain 项目官方对预置的 agents 介绍。|-|
 
 ### 提示词学习
 
@@ -125,11 +136,24 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)|![GitHub Repo stars](https://badgen.net/github/stars/imClumsyPanda/langchain-ChatGLM)|langchain-ChatGLM, local knowledge based ChatGLM with langchain |基于本地知识库的 ChatGLM 问答|
 |[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)|![GitHub Repo stars](https://badgen.net/github/stars/kyrolabs/awesome-langchain)|😎 Awesome list of tools and projects with the awesome LangChain framework. |LangChain Awesome 资源列表。|
 
-### AI 基础(算法方向)
+## AI 基础(算法方向)
 * [一文读懂ChatGPT模型原理](https://zhuanlan.zhihu.com/p/589621442)
 * [ChatGPT/InstructGPT详解](https://zhuanlan.zhihu.com/p/590311003) ChatGPT和InstructGPT在模型结构，训练方式上都完全一致，即都使用了指示学习（Instruction Learning）和人类反馈的强化学习（Reinforcement Learning from Human Feedback，RLHF）来指导模型的训练。要搞懂ChatGPT，我们必须要先读懂InstructGPT。
 
-#### 深度学习入门「口袋书」
+### GPT 论文
+|名称|简介|备注|
+|---|---|---|
+|[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)|Generative Pre-Training方法通过预训练语言模型和Fine-tuning微调，可以在多个自然语言理解任务上取得最新的最佳性能。 与其他自然语言处理方法和技术相比，Generative Pre-Training方法具有更好的泛化能力、更高的效率和更少的标记数据需求。|GPT-1 论文。有意思的是，GPT1的论文在投稿的时候并不是一帆风顺，甚至几番被拒稿并且从未被任何顶会接受。其中一个原因便是GPT1的模型在架构上几乎没有任何的创新。|
+|[Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)|探索了更大规模的模型在ZERO-SHOT的情况下的表现，没有使用任何微调，仅靠预训练+提示+预测就在8/9个任务里达到了SOTA。|GPT-2 论文|
+|[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)|从一开始的大模型预训练的引导者，到后面转为在无适配的FEW-SHOT泛化能力方向的引导者。|GPT-3 论文|
+|[GPTV_System_Card](resources/GPTs/GPTV_System_Card.pdf)|GPT Vision System Card。|GPT-4 多模态模型报告|
+
+论文解读：
+
+* [GPT系列论文阅读笔记](https://zhuanlan.zhihu.com/p/412351920)
+* [GPTV 解读](https://zhuanlan.zhihu.com/p/658422471)
+
+### 深度学习入门「口袋书」
 
 * [PDF 下载](resources/TheLittleBookofDeepLearning.pdf)
 
