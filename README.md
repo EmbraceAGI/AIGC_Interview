@@ -2,7 +2,6 @@
 
 📚 AIGC 求职面经、必备基础知识、提示词工程、大模型、提示词工程师、ChatGPT、Stable Diffusion、Prompt、Embedding、Fintune 等 AIGC 求职你所需要知道的一切~
 
-
 **持续更新中，欢迎分享求职经历、内推、工作机会等信息，欢迎共同编辑完善本项目，祝大家求职顺利~**
 
 ## 目录
@@ -10,8 +9,8 @@
   - [目录](#目录)
   - [前言](#前言)
   - [面经](#面经)
-    - [提示词方向](#提示词方向)
     - [算法方向](#算法方向)
+    - [提示词方向](#提示词方向)
   - [文章](#文章)
   - [学习资源](#学习资源)
     - [学习路径](#学习路径)
@@ -19,6 +18,9 @@
     - [提示词学习](#提示词学习)
     - [OpenAI 官方教程](#openai-官方教程)
     - [GPT 应用开发—— LangChain 相关资源](#gpt-应用开发-langchain-相关资源)
+    - [AI 基础(算法方向)](#ai-基础算法方向)
+      - [深度学习入门「口袋书」](#深度学习入门口袋书)
+    - [AI 基础(其他方向)](#ai-基础其他方向)
   - [开源与合作](#开源与合作)
     - [📜 协议](#-协议)
     - [🤝 合作](#-合作)
@@ -28,7 +30,7 @@
 
 >   最近秋招，许多同学朋友都在焦虑找工作的事情，近年来经济下行，就业机会减少，找工作确实是一件不容易的事情。因为 AIGC 领域的火热，最近许多朋友向我咨询过提示词工程师这一职业的事宜，发现这方面求职的相关资料较少，系统性资料更是不多。由于一直关注 AIGC 领域，同时也在运营提示词社群的缘故，对这些方面的内容零零散散有些了解，因此将这些内容收集整理起来，以期能对正在求职的朋友有所帮助。
 > 
->   同时，也要说明，这个行业目前前景不明，并不是无脑推荐大家涌入这个行业，只是若你在求职时处处碰壁，可以考虑这方面的机会，目前来看，这是一个相对而言机会多一些的行业。
+>   同时，也要说明，这个行业目前也存在诸多不确定性，并不是无脑推荐大家涌入这个行业，只是若你在求职时处处碰壁，可以考虑这方面的机会，目前来看，这是一个相对而言机会多一些的行业。
 
 AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景却存在诸多争议，关于提示词工程师的工作机会我很赞同下面的话：
 
@@ -36,21 +38,32 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 
 ## 面经
 
+### 算法方向
+* [我的大模型岗位面试总结：共24家，9个offer](https://hub.baai.ac.cn/view/31151)
+* [OpenAI，面试总结（非面经），挂了。](https://zhuanlan.zhihu.com/p/658886757)
+
+* [用Chatgpt复习算法工程师面试系列--AIGC算法篇](https://zhuanlan.zhihu.com/p/628438318)
+* [【LLM】大模型面试准备-2（题库整理篇）](https://zhuanlan.zhihu.com/p/651147548)
+* [分享俩挂得很彻底的挂经，xAI & 英伟达，](https://zhuanlan.zhihu.com/p/658685266)
+* [深度学习算法面试常见基础问题（2）AIGC相关问题](https://zhuanlan.zhihu.com/p/628253030)
+* [算法面试-深度学习基础面试题整理-AIGC相关（2023.9.01）](https://blog.csdn.net/qq_43687860/article/details/132626754)
+* [国内大模型公司，粗略面经+感受+一些包裹](https://zhuanlan.zhihu.com/p/657826357)
+* [2024届暑期实习蚂蚁一面面经（AIGC）](https://www.nowcoder.com/discuss/465528395846197248)
+* [AIGC算法工程师](https://www.nowcoder.com/feed/main/detail/41dfecd495324a1d8d51bdddd3ddb4bc)
+* [手把手教你如何成为AIGC算法工程师（持续更新）](https://zhuanlan.zhihu.com/p/651076114)
+
+观点
+
+* [ChatGPT这么强，会影响NLPer的就业环境吗](https://zhuanlan.zhihu.com/p/605673596)
+
 ### 提示词方向
+
 * [刘海：「AI 提示词工程师」の 见解和经验分享](https://waytoagi.feishu.cn/wiki/Gn1swDSxei4EB0kNu5bcfTvdnIb)
 * [5家大厂AIGC：百度&腾讯&科大讯飞&商汤&蚂蚁金服AI产品经理面经大汇总（已offer）](https://zhuanlan.zhihu.com/p/655031112)
 * [Prompt 工程师指南 [高阶篇]：对抗性 Prompting、主动 prompt、ReAct、GraphPrompts、Multimodal CoT Prompting 等](https://xie.infoq.cn/article/a55192a58c1880e82dbb58df7) Prompt 工程师需要掌握的高阶能力
 * [设计师的AIGC面试题，阁下如何应对？-（上篇）](https://www.woshipm.com/ai/5858859.html)
+* [6个常见的 AIGC 相关面试问题，范例答案来了！](https://www.uisdc.com/aigc-3)
 * [字节AIGC产品经理真题面试｜全程高能](https://zhuanlan.zhihu.com/p/658602974)
-
-### 算法方向
-* [用Chatgpt复习算法工程师面试系列--AIGC算法篇](https://zhuanlan.zhihu.com/p/628438318)
-* [【LLM】大模型面试准备-2（题库整理篇）](https://zhuanlan.zhihu.com/p/651147548)
-* [深度学习算法面试常见基础问题（2）AIGC相关问题](https://zhuanlan.zhihu.com/p/628253030)
-* [算法面试-深度学习基础面试题整理-AIGC相关（2023.9.01）](https://blog.csdn.net/qq_43687860/article/details/132626754)
-* [2024届暑期实习蚂蚁一面面经（AIGC）](https://www.nowcoder.com/discuss/465528395846197248)
-* [AIGC算法工程师](https://www.nowcoder.com/feed/main/detail/41dfecd495324a1d8d51bdddd3ddb4bc)
-* [手把手教你如何成为AIGC算法工程师（持续更新）](https://zhuanlan.zhihu.com/p/651076114)
 
 ## 文章
 
@@ -68,6 +81,7 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[AIGC招聘实火还是虚火？](https://xueqiu.com/1795547425/249558848)|AI相关岗位招聘火热，高薪吸引众多求职者。但AI创业领域存在争议，部分被认为仅是蹭热点，真假机遇仍待鉴别。|-|
 |[6个月时间，百万年薪的提示词工程师光速失业](https://m.jiemian.com/article/9459888.html)|这是一场关于信息差的游戏，其中包含着迷茫与焦虑，激动与振奋。|-|
 |[请别造新词了，未来不会有什么Prompt工程师](https://m.huxiu.com/article/1133932.html)|与其说，懂 Prompt 是核心竞争力，不如说，沟通能力才是核心竞争力。|-|
+|[真实的 AIGC 就业现状：遭面试官鄙视，给一般的薪水干更多的活](https://www.8btc.com/article/6828912)|铁打的打工人，流水的新风口。|-|
 
 ## 学习资源
 
@@ -111,6 +125,21 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)|![GitHub Repo stars](https://badgen.net/github/stars/imClumsyPanda/langchain-ChatGLM)|langchain-ChatGLM, local knowledge based ChatGLM with langchain |基于本地知识库的 ChatGLM 问答|
 |[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)|![GitHub Repo stars](https://badgen.net/github/stars/kyrolabs/awesome-langchain)|😎 Awesome list of tools and projects with the awesome LangChain framework. |LangChain Awesome 资源列表。|
 
+### AI 基础(算法方向)
+* [一文读懂ChatGPT模型原理](https://zhuanlan.zhihu.com/p/589621442)
+* [ChatGPT/InstructGPT详解](https://zhuanlan.zhihu.com/p/590311003) ChatGPT和InstructGPT在模型结构，训练方式上都完全一致，即都使用了指示学习（Instruction Learning）和人类反馈的强化学习（Reinforcement Learning from Human Feedback，RLHF）来指导模型的训练。要搞懂ChatGPT，我们必须要先读懂InstructGPT。
+
+#### 深度学习入门「口袋书」
+
+* [PDF 下载](resources/TheLittleBookofDeepLearning.pdf)
+
+深度学习入门「口袋书」，作者是法国计算机视觉专家 François Fleuret，用130多页概括了深度学习的主要内容，简洁明了。这本小册子非常适合放在手边，在需要时快速回顾关键概念。小册子的插图、工具、代码等都非常简洁优美，一目了然。
+
+![The Little Book of DeepLearning](imgs/TheLittleBookofDeepLearning_1.jpg)
+
+### AI 基础(其他方向)
+* [ChatGPT新手必看-基础篇：全面介绍ChatGPT领域的知识（值得收藏）](https://zhuanlan.zhihu.com/p/634161684)
+* [一文读懂ChatGPT模型原理](https://zhuanlan.zhihu.com/p/589621442)
 
 ## 开源与合作
 🔗 本项目为  [EmbraceAGI](https://github.com/EmbraceAGI) 开源社区项目， [EmbraceAGI](https://github.com/EmbraceAGI) 开源社区欢迎一切有志开源的朋友参与共创共建 AI 时代开源社区！
@@ -131,10 +160,17 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 
 💌 联系
 
+项目作者——[云中江树]()，相关开源项目：
+
+- [🔥 ChatGPT 中文指南（8K+ ⭐）](https://github.com/yzfly/awesome-chatgpt-zh)
+- [🚀 结构化提示词 LangGPT —— 让人人都可快速编写高质量 Prompt! (2K ⭐)! ](https://github.com/yzfly/LangGPT)
+- [🔥 中文 prompt 精选 (1K+ ⭐) ](https://github.com/yzfly/wonderful-prompts)
+
 如有任何疑问或建议，请通过以下方式联系我：
 
 - 📧 Email: [云中江树](mailto:contact@embraceagi.com)
-- 📞 微信：zephyr_ai 
+- 📞 微信：zephyr_ai (添加请注明来意)
+- 🌏 微信公众号: [清歌流觞](https://mp.weixin.qq.com/s/N9BrkDqvkIHQD7TTnhNk6Q)
 
 🌟 感谢您的关注和参与，祝您求职顺利！ 🌟
 
