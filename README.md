@@ -85,6 +85,8 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[6个月时间，百万年薪的提示词工程师光速失业](https://m.jiemian.com/article/9459888.html)|这是一场关于信息差的游戏，其中包含着迷茫与焦虑，激动与振奋。|-|
 |[请别造新词了，未来不会有什么Prompt工程师](https://m.huxiu.com/article/1133932.html)|与其说，懂 Prompt 是核心竞争力，不如说，沟通能力才是核心竞争力。|-|
 |[真实的 AIGC 就业现状：遭面试官鄙视，给一般的薪水干更多的活](https://www.8btc.com/article/6828912)|铁打的打工人，流水的新风口。|-|
+|[慢一点儿招聘，提示工程师 Prompt Engineer这个岗位终将消失](https://new.qq.com/rain/a/20230927A03YOM00)|Prompt engineering 提示工程是生成式 AI 的一个临时阶段。|-|
+
 
 ## 学习资源
 
