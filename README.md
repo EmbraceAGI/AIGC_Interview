@@ -18,8 +18,8 @@
     - [AIGC 知识库](#aigc-知识库)
     - [文章](#文章)
     - [提示词学习](#提示词学习)
-    - [OpenAI 官方教程](#openai-官方教程)
-    - [GPT 应用开发—— LangChain 相关资源](#gpt-应用开发-langchain-相关资源)
+    - [官方教程](#官方教程)
+    - [AIGC 应用开发](#aigc-应用开发)
   - [AI 基础(算法方向)](#ai-基础算法方向)
     - [GPT 论文](#gpt-论文)
     - [深度学习入门「口袋书」](#深度学习入门口袋书)
@@ -116,7 +116,7 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[高质量导师提示词 Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)|![GitHub Repo stars](https://badgen.net/github/stars/JushBJJ/Mr.-Ranedeer-AI-Tutor)|A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.|极具参考价值的提示词|
 |[结构化提示词 LangGPT](https://github.com/yzfly/LangGPT)|![GitHub Repo stars](https://badgen.net/github/stars/yzfly/LangGPT)|LangGPT: Empowering everyone to become a prompt expert!🚀 Structured Prompt，结构化提示词。|使用结构化方式写高质量提示词|
 
-### OpenAI 官方教程
+### 官方教程
 
 |名称|Stars|简介|备注|
 |---|---|---|---|
@@ -124,19 +124,21 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[openai-cookbook](https://github.com/openai/openai-cookbook)|![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-cookbook)|Examples and guides for using the OpenAI API|OpenAI API 官方使用指南|
 |[openai-python](https://github.com/openai/openai-python)|![GitHub Repo stars](https://badgen.net/github/stars/openai/openai-python)|The OpenAI Python library provides convenient access to the OpenAI API from applications written in the Python language.|OpenAI python 接口|
 |[Best practices for prompt engineering with OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)|-|OpenAI 官方教程,介绍了 Prompt 工程中最佳实践|-|
+|[Llama 入门指南](https://ai.meta.com/llama/get-started)|-|Meta 发布的关于 Llama 入门指南，里面包括了想要使用和训练Llama的所有内容，包括模型的微调、量化、提示工程、推理和测试一整个链路。|如果有一些基础想要微调Llama的可以看一下这个教程。|
 
-### GPT 应用开发—— LangChain 相关资源
+### AIGC 应用开发
 
 |名称|Stars|简介|备注|
 |---|---|---|---|
+|[LangChain 教程](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)|-|-|吴恩达与 LangChain 开发者推出的教程，目前免费|
+|[LangChain 的中文入门教程](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)|![GitHub Repo stars](https://badgen.net/github/stars/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)|LangChain 的中文入门教程|gitbook地址：https://liaokong.gitbook.io/llm-kai-fa-jiao-cheng/|
+|[langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)|![GitHub Repo stars](https://badgen.net/github/stars/imClumsyPanda/langchain-ChatGLM)|langchain-ChatGLM, local knowledge based ChatGLM with langchain |基于本地知识库的 ChatGLM 问答|
 |[langchain](https://github.com/hwchase17/langchain)|![GitHub Repo stars](https://badgen.net/github/stars/hwchase17/langchain)|Building applications with LLMs through composability|开发自己的 ChatGPT 应用|
 |[langchain-aiplugin](https://github.com/langchain-ai/langchain-aiplugin)|![GitHub Repo stars](https://badgen.net/github/stars/langchain-ai/langchain-aiplugin)|-| langChain 插件|
 |[LangFlow](https://github.com/logspace-ai/langflow)|![GitHub Repo stars](https://badgen.net/github/stars/logspace-ai/langflow)|LangFlow is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.|LangChain的一个UI|
 |[langchain-tutorials](https://github.com/gkamradt/langchain-tutorials)|![GitHub Repo stars](https://badgen.net/github/stars/gkamradt/langchain-tutorials)|Overview and tutorial of the LangChain Library|LangChain 教程|
-|[LangChain 教程](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)|-|-|吴恩达与 LangChain 开发者推出的教程，目前免费|
-|[LangChain 的中文入门教程](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)|![GitHub Repo stars](https://badgen.net/github/stars/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)|LangChain 的中文入门教程|gitbook地址：https://liaokong.gitbook.io/llm-kai-fa-jiao-cheng/|
-|[langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)|![GitHub Repo stars](https://badgen.net/github/stars/imClumsyPanda/langchain-ChatGLM)|langchain-ChatGLM, local knowledge based ChatGLM with langchain |基于本地知识库的 ChatGLM 问答|
 |[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)|![GitHub Repo stars](https://badgen.net/github/stars/kyrolabs/awesome-langchain)|😎 Awesome list of tools and projects with the awesome LangChain framework. |LangChain Awesome 资源列表。|
+|[llm-books](https://github.com/morsoli/llm-books)|![GitHub Repo stars](https://badgen.net/github/stars/morsoli/llm-books)|-|利用LLM构建应用实践笔记|
 
 ## AI 基础(算法方向)
 * [一文读懂ChatGPT模型原理](https://zhuanlan.zhihu.com/p/589621442)
