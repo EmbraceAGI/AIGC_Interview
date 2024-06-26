@@ -61,9 +61,9 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 
 ### 提示词方向
 
-* [刘海：「AI 提示词工程师」の 见解和经验分享](https://waytoagi.feishu.cn/wiki/Gn1swDSxei4EB0kNu5bcfTvdnIb)
 * [5家大厂AIGC：百度&腾讯&科大讯飞&商汤&蚂蚁金服AI产品经理面经大汇总（已offer）](https://zhuanlan.zhihu.com/p/655031112)
 * [Prompt 工程师指南 [高阶篇]：对抗性 Prompting、主动 prompt、ReAct、GraphPrompts、Multimodal CoT Prompting 等](https://xie.infoq.cn/article/a55192a58c1880e82dbb58df7) Prompt 工程师需要掌握的高阶能力
+* [「AI 提示词工程师」の 见解和经验分享](https://waytoagi.feishu.cn/wiki/Gn1swDSxei4EB0kNu5bcfTvdnIb)
 * [设计师的AIGC面试题，阁下如何应对？-（上篇）](https://www.woshipm.com/ai/5858859.html)
 * [6个常见的 AIGC 相关面试问题，范例答案来了！](https://www.uisdc.com/aigc-3)
 * [字节AIGC产品经理真题面试｜全程高能](https://zhuanlan.zhihu.com/p/658602974)
@@ -98,6 +98,7 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 * [LangGPT 结构化提示词](https://aq92z6vors3.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)
 * [💡Learn Prompting](https://learnprompting.org/zh-Hans/)
 * [ChatGPT 中文指南](https://github.com/yzfly/awesome-chatgpt-zh)
+* [AIGCLink 开发者社区](https://trx769zfgq.feishu.cn/wiki/LxpHw7iyuiX66FkebN0ceQtFnVb)
 
 ### 文章
 
@@ -140,9 +141,18 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 |[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)|![GitHub Repo stars](https://badgen.net/github/stars/kyrolabs/awesome-langchain)|😎 Awesome list of tools and projects with the awesome LangChain framework. |LangChain Awesome 资源列表。|
 |[llm-books](https://github.com/morsoli/llm-books)|![GitHub Repo stars](https://badgen.net/github/stars/morsoli/llm-books)|-|利用LLM构建应用实践笔记|
 
+### Agents 开发框架和工具
+|名称|Stars|简介|备注|
+|---|---|---|---|
+|[langchain](https://github.com/hwchase17/langchain)|![GitHub Repo stars](https://badgen.net/github/stars/hwchase17/langchain)|Building applications with LLMs through composability|最知名应用最广泛的开发框架|
+|[Phidata](https://github.com/phidatahq/phidata)|![GitHub Repo stars](https://badgen.net/github/stars/phidatahq/phidata)|Build AI Assistants with memory, knowledge and tools.|轻量灵活的Agents 开发框架|
+|[Agently](https://github.com/Maplemx/Agently)|![GitHub Repo stars](https://badgen.net/github/stars/Maplemx/Agently)|AI Agent Application Development Framework.|少量代码即可构建AI代理原生应用|
+|[ollama](https://github.com/ollama/ollama)|![GitHub Repo stars](https://badgen.net/github/stars/ollama/ollama)|Get up and running with Llama 3, Mistral, Gemma, and other large language models.|大模型私有化本地部署神器|
+
 ## AI 基础(算法方向)
 * [一文读懂ChatGPT模型原理](https://zhuanlan.zhihu.com/p/589621442)
 * [ChatGPT/InstructGPT详解](https://zhuanlan.zhihu.com/p/590311003) ChatGPT和InstructGPT在模型结构，训练方式上都完全一致，即都使用了指示学习（Instruction Learning）和人类反馈的强化学习（Reinforcement Learning from Human Feedback，RLHF）来指导模型的训练。要搞懂ChatGPT，我们必须要先读懂InstructGPT。
+* [OpenAI 联合创始人兼首席科学家 Ilya Sutskever 整理的一份机器学习研究文章](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE) 「掌握了这些内容，你就了解了当前（人工智能领域） 90% 的重要内容。
 
 ### GPT 论文
 |名称|简介|备注|
@@ -190,15 +200,15 @@ AIGC 算法方向前景争议不大，但是关于提示词工程师职业前景
 
 项目作者——[云中江树]()，相关开源项目：
 
-- [🔥 ChatGPT 中文指南（8K+ ⭐）](https://github.com/yzfly/awesome-chatgpt-zh)
-- [🚀 结构化提示词 LangGPT —— 让人人都可快速编写高质量 Prompt! (2K ⭐)! ](https://github.com/yzfly/LangGPT)
-- [🔥 中文 prompt 精选 (1K+ ⭐) ](https://github.com/yzfly/wonderful-prompts)
+- [🔥 ChatGPT 中文指南（1w+ ⭐）](https://github.com/yzfly/awesome-chatgpt-zh)
+- [🚀 结构化提示词 LangGPT —— 让人人都可快速编写高质量 Prompt! (4K ⭐)! ](https://github.com/yzfly/LangGPT)
+- [🔥 中文 prompt 精选 (2K+ ⭐) ](https://github.com/yzfly/wonderful-prompts)
 
 如有任何疑问或建议，请通过以下方式联系我：
 
 - 📧 Email: [云中江树](mailto:contact@embraceagi.com)
-- 📞 微信：zephyr_ai (添加请注明来意)
-- 🌏 微信公众号: [清歌流觞](https://mp.weixin.qq.com/s/N9BrkDqvkIHQD7TTnhNk6Q)
+- 📞 微信：1796060717 (添加请注明来意)
+- 🌏 微信公众号: [云中江树](https://mp.weixin.qq.com/s/N9BrkDqvkIHQD7TTnhNk6Q)
 
 🌟 感谢您的关注和参与，祝您求职顺利！ 🌟
 
